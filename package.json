@@ -1,0 +1,15 @@
+
+{
+  "name": "keshan-sensitive",
+  "version": "1.0.0",
+  "description": "KESHAN SENSITIVE Free Fire Settings App",
+  "private": true,
+  "scripts": {
+    "build": "echo Build Ready"
+  },
+  "dependencies": {
+    "@capacitor/core": "latest",
+    "@capacitor/cli": "latest",
+    "@capacitor/android": "latest"
+  }
+}
