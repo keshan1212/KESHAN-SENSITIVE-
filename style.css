@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #050505;
+    color: white;
+    min-height: 100vh;
+    background-image:
+        radial-gradient(circle at top, #300000, #050505 60%);
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    font-size: 30px;
+    color: #ff2020;
+    text-shadow: 0 0 15px red;
+}
+
+header h1 span {
+    color: #ffffff;
+}
+
+header p {
+    color: #aaa;
+    font-size: 12px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.card {
+    background: rgba(20, 20, 20, 0.95);
+    border: 1px solid #ff2020;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+}
+
+.card h2 {
+    color: #ff3030;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.setting {
+    margin-bottom: 18px;
+}
+
+.setting label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #ddd;
+}
+
+.setting input {
+    width: 80%;
+    accent-color: #ff2020;
+}
+
+.setting span {
+    float: right;
+    color: #ff3030;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 13px;
+    background: #111;
+    color: white;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(90deg, #ff0000, #990000);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 15px #600;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+#result {
+    margin-top: 15px;
+    text-align: center;
+    color: #00ff88;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 12px;
+}
+
+@media (max-width: 350px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
