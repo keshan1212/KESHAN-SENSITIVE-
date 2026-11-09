@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KESHAN SENSITIVE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>KESHAN <span>SENSITIVE</span></h1>
+            <p>FREE FIRE HEADSHOT SENSITIVITY</p>
+        </header>
+
+        <div class="card">
+            <h2>🔥 Headshot Settings</h2>
+
+            <div class="setting">
+                <label>General</label>
+                <input type="range" min="0" max="200" value="185">
+                <span>185</span>
+            </div>
+
+            <div class="setting">
+                <label>Red Dot</label>
+                <input type="range" min="0" max="200" value="190">
+                <span>190</span>
+            </div>
+
+            <div class="setting">
+                <label>2x Scope</label>
+                <input type="range" min="0" max="200" value="180">
+                <span>180</span>
+            </div>
+
+            <div class="setting">
+                <label>4x Scope</label>
+                <input type="range" min="0" max="200" value="170">
+                <span>170</span>
+            </div>
+
+            <div class="setting">
+                <label>Sniper Scope</label>
+                <input type="range" min="0" max="200" value="150">
+                <span>150</span>
+            </div>
+
+            <div class="setting">
+                <label>Free Look</label>
+                <input type="range" min="0" max="200" value="185">
+                <span>185</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📱 Device Settings</h2>
+            <select id="device">
+                <option>Samsung</option>
+                <option>Redmi</option>
+                <option>Realme</option>
+                <option>iPhone 7 Plus</option>
+                <option>iPhone 8 Plus</option>
+                <option>Vivo</option>
+                <option>Oppo</option>
+                <option>Other Android</option>
+            </select>
+
+            <button onclick="getSettings()">GET SENSITIVITY</button>
+            <p id="result"></p>
+        </div>
+
+        <footer>
+            <p>© 2026 KESHAN SENSITIVE</p>
+            <p>Gaming Settings App</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
